@@ -122,6 +122,14 @@ img{
   margin-bottom: var(--mb-3);
 }
 
+.section-title1{
+  font-size: var(--h3-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-3);
+  text-align: center;
+}
+
+
 .section-subtitle{
   display: block;
   color: var(--first-color);
