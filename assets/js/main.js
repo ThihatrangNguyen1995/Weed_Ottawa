@@ -105,3 +105,25 @@ sr.reveal(`.home__data, .home__img,
             .footer__content`, {
     interval: 200
 })
+/*==================== BOX QUESTION ====================*/
+
+
+// var CustomerPick = new function () {
+//     this.show = function (msg, callback) {
+//         var dlg = document.getElementById('dialogCont');
+//         dlg.style.top = '30%'
+//         dlg.style.opacity = 1;
+//         this.callback = callback;
+//         document.getElementById('freezeLayer').style.display = '';
+//     };
+//     this.okay = function () {
+//         this.callback();
+//         this.close();
+//     };
+//     this.close = function () {
+//         var dlg = document.getElementById('dialogCont')
+//         dlg.style.top = '30%'
+//         dlg.style.opacity = 1;
+//         document.getElementById('freezeLayer').style.display = 'none';
+//     }
+// }
