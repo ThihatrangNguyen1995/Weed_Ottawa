@@ -7,7 +7,7 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  --first-color: #797b7a;
+  --first-color: #797979;
   --first-color-alt: #3b3b3b;
   --text-color-light: #A6A6A6;
   --title-color: #F1F3F2;
@@ -235,7 +235,7 @@ img{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: rgb(130, 64, 129);
+  background: rgb(64, 63, 64);
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .4s;
@@ -415,6 +415,7 @@ img{
 
 .contact__description{
   margin-bottom: var(--mb-3);
+  color: white;
 }
 .order__description{
   text-align: center;
@@ -473,6 +474,9 @@ img{
   .app__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+  }
+  .home__title{
+    font-size: var(--biggest-font-size);
   }
 
   .about__data, .about__initial,
